@@ -46,7 +46,7 @@ class WelcomeController extends Controller
                 ->where('a.status','=','1')
                 ->where('b.status','=','1')
                 ->orderby('a.published_at','desc')
-                ->limit(3)
+                ->limit(5)
                 ->get();
 
         //dd($aturan);

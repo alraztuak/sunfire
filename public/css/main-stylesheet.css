@@ -2095,7 +2095,7 @@ select {
 }
 
 .article-classic .list-side {
-	padding: 20px 20px 20px 20px!important;
+	padding: 10px 10px 10px 10px!important;
 }
 
 .article-classic .featured-side .item .item-header {
@@ -2161,7 +2161,7 @@ select {
 .article-classic .featured-side .item .item-content-date span {
 	display: block;
 	font-size: 14px;
-	margin-left: 45px;
+	margin-left: 15px;
 }
 
 .article-classic .featured-side .item .item-content-date span:last-child {

@@ -128,9 +128,30 @@
 
 					<div class="paragraph-row">
 
-						<div class="column9 article-classic">
-											<div class="widget widget_ot_timeline">	
+						<div class="column8 article-classic">
+								
+									<div class="item paragraph-row" style="background-color: rgba(0,0,0,0.6);width:60%">
+										<div class="column2">
+											<div class="item-content" style="color:#fff;padding:10px">
+												<i class="fa fa-folder-open"></i>
+											</div>
+										</div>
+										<div class="column5">
+											<div class="item-content" style="color:#fff;background-color: #196798;padding:10px">
+												<h3 style="font-size:16px">Peraturan</h3>
+											</div>
+										</div>
+										<div class="column5">
+											<div class="item-content" style="color:#fff;background-color: #dedede;padding:10px">
+												<h3 style="font-size:16px"># Terbaru</h3>
+											</div>
+										</div>
+									</div>
+
+											<div class="widget ot-widget-timeline">	
 												<div class="ot-widget-timeline" style="margin:10px">
+
+											
 									@foreach($aturan as $aturanitem)  
 														<div class="item">
 															<div class="item-date">
@@ -147,9 +168,13 @@
 																		{{ $aturanitem->judul }}
 																	</a>
 																</h4>
-																<p class="block-title" style="text-align:left;color:#fff;">
+																<br />
+																<span class="block-title" style="text-align:left;color:#fff;">
 																	{{ $aturanitem->nomor }}
-																</p>
+																</span>
+																</div>
+																<br />
+																<div>
 																<small>
 																	<a href="{{ route('aturanortax.show', ['id'=> $aturanitem->id]) }}">
 																		{{ $aturanitem->perihal }}
@@ -163,14 +188,71 @@
 														
 												</div>
 											</div>
+											<br />
+											<div class="widget widget_tag_cloud">
+												<div class="title-block"> <h2><i class="fa fa-tag"></i> Tags</h2></div>
+												<div class="tagcloud" style="padding:10px">
+													<a href="#" class="tag-cloud-link tag-link-12 tag-link-position-1" style="font-size: 22pt;" aria-label="Automotive (12 items)">
+														<i class="fa fa-bookmark-o"></i>&nbsp; Terbaru
+													</a>
+
+													<a href="#" class="tag-cloud-link tag-link-12 tag-link-position-1" style="font-size: 22pt;" aria-label="Automotive (12 items)">
+														<i class="fa fa-bookmark-o"></i>&nbsp; Terpopuler
+													</a>
+
+													<a href="#" class="tag-cloud-link tag-link-12 tag-link-position-1" style="font-size: 22pt;" aria-label="Automotive (12 items)">
+														<i class="fa fa-bookmark-o"></i>&nbsp; Paling banyak dilihat
+													</a>
+												</div>
+											</div>
 						<!-- END .ot-panel-block -->
 						</div>
-						<div class="column3 article-classic right">
-																				<!-- BEGIN .item -->
-								<div class="reviews-block " style="padding:10px">
+						<div class="column4 article-classic ">
+								<div class="item paragraph-row" style="background-color: rgba(0,0,0,0.6);">
+									<div class="column2">
+										<div class="item-content" style="color:#fff;padding:10px">
+											<i class="fa fa-folder-open"></i>
+										</div>
+									</div>
+									<div class="column10">
+										<div class="item-content" style="color:#fff;background-color: #196798;padding:10px">
+											<h3 style="font-size:16px">Data dan informasi lainnya</h3>
+										</div>
+									</div>
+								</div>						<!-- BEGIN .item -->
+							<div class="reviews-block lets-do-3" style="padding:10px">
+								<div class="item">
+									<div class="item-header">
+										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/">
+										<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/>
+										</a>
+									</div>
+									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
+										<h3 style="font-size:16px">Tax Treaty/P3B</h3>
+									</div>
+								</div>
 								<div class="item">
 									<div class="item-header">
 										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
+									</div>
+									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
+										<h3 style="font-size:16px">Putusan Pengadilan</h3>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-header">
+										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
+									</div>
+									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
+										<h3 style="font-size:16px">Kurs Pajak</h3>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-header">
+										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
+									</div>
+									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
+										<h3 style="font-size:16px">Kurs BI</h3>
 									</div>
 								</div>
 							</div>
