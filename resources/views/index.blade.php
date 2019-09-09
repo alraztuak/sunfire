@@ -130,9 +130,9 @@
 
 						<div class="column8 article-classic">
 								
-									<div class="item paragraph-row" style="background-color: rgba(0,0,0,0.6);width:60%">
+									<div class="item paragraph-row" style="background-color: #196798;width:60%">
 										<div class="column2">
-											<div class="item-content" style="color:#fff;padding:10px">
+											<div class="item-content" style="color:#fff;background-color: rgba(0,0,0,0.6);padding:10px">
 												<i class="fa fa-folder-open"></i>
 											</div>
 										</div>
@@ -142,7 +142,7 @@
 											</div>
 										</div>
 										<div class="column5">
-											<div class="item-content" style="color:#fff;background-color: #dedede;padding:10px">
+											<div class="item-content" style="color:#000;background-color: #dedede;padding:10px">
 												<h3 style="font-size:16px"># Terbaru</h3>
 											</div>
 										</div>
@@ -208,9 +208,9 @@
 						<!-- END .ot-panel-block -->
 						</div>
 						<div class="column4 article-classic ">
-								<div class="item paragraph-row" style="background-color: rgba(0,0,0,0.6);">
+								<div class="item paragraph-row" style="background-color: #196798;">
 									<div class="column2">
-										<div class="item-content" style="color:#fff;padding:10px">
+										<div class="item-content" style="color:#fff;background-color: rgba(0,0,0,0.6);padding:10px">
 											<i class="fa fa-folder-open"></i>
 										</div>
 									</div>
