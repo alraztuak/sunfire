@@ -1,0 +1,2863 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Solidus\n"
+"POT-Creation-Date: 2017-01-04 20:05+0200\n"
+"PO-Revision-Date: 2017-01-04 20:05+0200\n"
+"Last-Translator: Orange Themes <support@orange-themes.com>\n"
+"Language-Team: Orange Themes <support@orange-themes.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html__;esc_html_e;"
+"esc_attr__;esc_attr_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPathExcluded-0: js\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../solidus-theme/404.php:29
+msgid "Error 404"
+msgstr ""
+
+#: ../solidus-theme/404.php:30
+msgid "Page Not Found"
+msgstr ""
+
+#: ../solidus-theme/404.php:32
+msgid "Sorry, This page is wanted by the police so it ran"
+msgstr ""
+
+#: ../solidus-theme/404.php:32
+msgid "away to Antarctica. If You see it, please let us know."
+msgstr ""
+
+#: ../solidus-theme/404.php:33
+msgid "back to homepage"
+msgstr ""
+
+#: ../solidus-theme/comments.php:6
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: ../solidus-theme/comments.php:18
+msgid "Comments"
+msgstr ""
+
+#: ../solidus-theme/comments.php:33
+msgid "No Comments Yet!"
+msgstr ""
+
+#: ../solidus-theme/comments.php:34
+#, php-format
+msgid "You can be first to %1$s comment this post! %2$s"
+msgstr ""
+
+#: ../solidus-theme/comments.php:47
+msgid "Write comment"
+msgstr ""
+
+#: ../solidus-theme/comments.php:55
+#, php-format
+msgid "Only %1$s registered %2$s users can comment."
+msgstr ""
+
+#: ../solidus-theme/comments.php:59
+msgid "Comment"
+msgstr ""
+
+#: ../solidus-theme/comments.php:59
+msgid "Your comment.."
+msgstr ""
+
+#: ../solidus-theme/comments.php:69
+msgid "Post a Comment"
+msgstr ""
+
+#: ../solidus-theme/footer.php:83
+msgid "Back to top"
+msgstr ""
+
+#: ../solidus-theme/footer.php:91 ../solidus-theme/footer.php:158
+#: ../solidus-theme/functions/register.php:17
+msgid "Footer Menu"
+msgstr ""
+
+#: ../solidus-theme/footer.php:187
+#: ../solidus-theme/includes/_lightbox-gallery.php:2
+msgid "Close Window"
+msgstr ""
+
+#: ../solidus-theme/footer.php:189 ../solidus-theme/footer.php:191
+msgid "Loading, Please Wait!"
+msgstr ""
+
+#: ../solidus-theme/footer.php:190
+msgid "This may take a second or two."
+msgstr ""
+
+#: ../solidus-theme/header.php:50
+#, php-format
+msgid "%s latest posts"
+msgstr ""
+
+#: ../solidus-theme/header.php:51
+#, php-format
+msgid "%s latest comments"
+msgstr ""
+
+#: ../solidus-theme/searchform.php:7
+msgid "Search for:"
+msgstr ""
+
+#: ../solidus-theme/searchform.php:8
+msgid "search here"
+msgstr ""
+
+#: ../solidus-theme/searchform.php:9 ../solidus-theme/includes/top.php:175
+msgid "Search"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:41
+msgid "Contact us"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:47
+msgid "Great Success:"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:47
+msgid "Your meesage went through!"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:58
+#: ../solidus-theme/functions/filters.php:217
+msgid "Your data will be safe!"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:59
+msgid ""
+"Your e-mail address will not be published. Also other data will not be "
+"shared with third person. Required fields marked as "
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:63
+#: ../solidus-theme/template-contact.php:64
+#: ../solidus-theme/functions/filters.php:202
+msgid "Nickname"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:68
+#: ../solidus-theme/template-contact.php:69
+#: ../solidus-theme/functions/filters.php:203
+msgid "E-mail"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:73
+#: ../solidus-theme/template-contact.php:74
+msgid "Website"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:77
+msgid "Text"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:78
+msgid "Your message"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:82
+msgid "Send Message"
+msgstr ""
+
+#: ../solidus-theme/template-contact.php:91
+#: ../solidus-theme/includes/gallery-single-style-1.php:179
+#: ../solidus-theme/includes/news-single.php:89
+#: ../solidus-theme/includes/page-single.php:16
+#: ../solidus-theme/includes/page-woocommerce.php:12
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: ../solidus-theme/template-gallery-1.php:58
+msgid "All Categories"
+msgstr ""
+
+#: ../solidus-theme/template-gallery-1.php:118
+msgid "No galleries were found"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:458
+msgid "From"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:458
+msgid "Contact Page"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:471
+msgid "Message:"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:473
+msgid "Name:"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:474
+msgid "Url:"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:475
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:39
+msgid "E-mail:"
+msgstr ""
+
+#: ../solidus-theme/functions/ajax.php:476
+msgid "IP Address:"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:126
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:130
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:154
+msgid "Move up"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:167
+msgid "Move down"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:169
+#: ../solidus-theme/functions/custom-admin-menu.php:171
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:180
+msgid "URL"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:187
+msgid "Navigation Label"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:193
+msgid "Title Attribute"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:200
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:205
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:211
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:217
+msgid "Description"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:219
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:232
+msgid ""
+"Show The Color Line In Main/Footer Menu Parent Item (Only Pages/Categories)"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:238
+msgid ""
+"Main menu type ( only menu parent item, more info <a href=\"http://fraction."
+"orange-themes.com/documentation/#mega-menu\" target=\"_blank\">here</a> )"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:240
+#: ../solidus-theme/functions/custom-admin-menu.php:253
+#: ../solidus-theme/functions/solidus-menu.php:843
+#: ../solidus-theme/functions/solidus-menu.php:862
+#: ../solidus-theme/includes/theme-config.php:592
+#: ../solidus-theme/includes/theme-config.php:830
+msgid "Default"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:241
+msgid "Mega Menu With Widgets"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:247
+msgid "Sidebar for widget mega menu"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:282
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:295
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:583
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:630
+msgid "Remove"
+msgstr ""
+
+#: ../solidus-theme/functions/custom-admin-menu.php:296
+msgid "Cancel"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:13
+msgid "Homepage Blocks:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:17
+msgid "Latest,Popular or Category News"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:20
+msgid ""
+"Latest news, category news or popular news post listing, with several layouts"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:24
+msgid "Block Style:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:27
+msgid "Post Slider"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:28
+msgid "Grid View 2 Posts in Row"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:29
+msgid "Grid View 3 Posts in Row"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:30
+msgid "Post List"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:31
+msgid "Large Image on the Left, Small on the Right"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:32
+msgid "Post List With Large Image at the Top and Smaller Below"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:37
+#: ../solidus-theme/functions/drag-drop.php:75
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:119
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:32
+#: ../solidus-theme/includes/widgets/widget-solidus-cat.php:17
+#: ../solidus-theme/includes/widgets/widget-solidus-comments.php:21
+#: ../solidus-theme/includes/widgets/widget-solidus-gallery.php:23
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:25
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:26
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:25
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:25
+msgid "Title:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:39
+#: ../solidus-theme/functions/drag-drop.php:76
+msgid "Count:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:42
+msgid "Block Type:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:45
+#: ../solidus-theme/includes/theme-config.php:1650
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:39
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:40
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:39
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:39
+msgid "Latest News"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:46
+msgid "Popular News"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:54
+#: ../solidus-theme/functions/drag-drop.php:81
+msgid "Filter by Categories"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:57
+#: ../solidus-theme/functions/drag-drop.php:84
+msgid ""
+"From which post should start the loop (for example 4 ), for default leave it "
+"empty, or add 0. (Offset):"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:61
+msgid "Block Title Color:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:70
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:6
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:12
+msgid "Reviews"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:73
+msgid "Latest/Top reviews."
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:87
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:46
+msgid "Type:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:90
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:48
+msgid "Latest Reviews"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:91
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:49
+msgid "Top Reviews"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:99
+#: ../solidus-theme/functions/solidus-menu.php:535
+#: ../solidus-theme/includes/admin/style.php:151
+#: ../solidus-theme/includes/admin/style.php:193
+msgid "Color:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:138
+msgid "Text Block"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:141
+msgid "Custom Text Block/Shortcodes Block"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:143
+msgid "Title (optional):"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:144
+#: ../solidus-theme/includes/admin/general.php:869
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:37
+msgid "Text:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:149
+msgid "HTML Code"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:152
+msgid "Custom HTML/Shortcodes Block"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:154
+#: ../solidus-theme/functions/drag-drop.php:164
+msgid "Code/Text:"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:159
+msgid "Banner Block"
+msgstr ""
+
+#: ../solidus-theme/functions/drag-drop.php:162
+msgid "Supports HTML,CSS, Javascript and Shortcodes."
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:74
+msgid "More"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:184
+msgid "LinkedIn Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:185
+msgid "Twitter Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:186
+msgid "Facebook Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:187
+msgid "Google+ Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:188
+msgid "Youtube Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:189
+msgid "Flickr Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:190
+msgid "Dribbble Account Url"
+msgstr ""
+
+#: ../solidus-theme/functions/filters.php:218
+msgid ""
+"Your e-mail address will not be published. Also other data will not be "
+"shared with third person. Required fields marked as"
+msgstr ""
+
+#: ../solidus-theme/functions/nav.php:46
+msgid "Previous Page"
+msgstr ""
+
+#: ../solidus-theme/functions/nav.php:47
+msgid "Next Page"
+msgstr ""
+
+#: ../solidus-theme/functions/nav.php:96
+msgid "Previous"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:66
+msgid "Categoy Color"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:68
+msgid "Category Style "
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:72
+#: ../solidus-theme/functions/other.php:81
+msgid "Right"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:72
+#: ../solidus-theme/functions/other.php:81
+msgid "Left"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:72
+msgid "Main Sidebar Position "
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:74
+msgid "Main Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:76
+#: ../solidus-theme/functions/solidus-menu.php:860
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:81
+msgid "Second Sidebar Position "
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:83
+msgid "Second Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:143
+msgid "Last Update: "
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:143
+msgid "Updated"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:771
+msgid "No Effect"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:773
+msgid "None"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:777
+msgid "Attention Seekers"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:779
+msgid "bounce"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:780
+msgid "flash"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:781
+msgid "pulse"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:782
+msgid "rubberBand"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:783
+msgid "shake"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:784
+msgid "swing"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:785
+msgid "tada"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:786
+msgid "wobble"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:790
+msgid "Bouncing Entrances"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:792
+msgid "bounceIn"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:793
+msgid "bounceInDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:794
+msgid "bounceInLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:795
+msgid "bounceInRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:796
+msgid "bounceInUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:800
+msgid "Bouncing Exits"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:802
+msgid "bounceOut"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:803
+msgid "bounceOutDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:804
+msgid "bounceOutLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:805
+msgid "bounceOutRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:806
+msgid "bounceOutUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:810
+msgid "Fading Entrances"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:812
+msgid "fadeIn"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:813
+msgid "fadeInDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:814
+msgid "fadeInDownBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:815
+msgid "fadeInLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:816
+msgid "fadeInLeftBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:817
+msgid "fadeInRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:818
+msgid "fadeInRightBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:819
+msgid "fadeInUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:820
+msgid "fadeInUpBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:824
+msgid "Fading Exits"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:826
+msgid "fadeOut"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:827
+msgid "fadeOutDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:828
+msgid "fadeOutDownBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:829
+msgid "fadeOutLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:830
+msgid "fadeOutLeftBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:831
+msgid "fadeOutRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:832
+msgid "fadeOutRightBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:833
+msgid "fadeOutUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:834
+msgid "fadeOutUpBig"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:838
+msgid "Flippers"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:840
+msgid "flip"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:841
+msgid "flipInX"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:842
+msgid "flipInY"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:843
+msgid "flipOutX"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:844
+msgid "flipOutY"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:848
+msgid "Lightspeed"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:850
+msgid "lightSpeedIn"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:851
+msgid "lightSpeedOut"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:855
+msgid "Rotating Entrances"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:857
+msgid "rotateIn"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:858
+msgid "rotateInDownLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:859
+msgid "rotateInDownRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:860
+msgid "rotateInUpLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:861
+msgid "rotateInUpRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:865
+msgid "Rotating Exits"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:867
+msgid "rotateOut"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:868
+msgid "rotateOutDownLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:869
+msgid "rotateOutDownRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:870
+msgid "rotateOutUpLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:871
+msgid "rotateOutUpRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:875
+msgid "Sliding Entrances"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:877
+msgid "slideInUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:878
+msgid "slideInDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:879
+msgid "slideInLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:880
+msgid "slideInRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:884
+msgid "Sliding Exits"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:886
+msgid "slideOutUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:887
+msgid "slideOutDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:888
+msgid "slideOutLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:889
+msgid "slideOutRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:893
+msgid "Zoom Entrances"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:895
+msgid "zoomIn"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:896
+msgid "zoomInDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:897
+msgid "zoomInLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:898
+msgid "zoomInRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:899
+msgid "zoomInUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:903
+msgid "Zoom Exits"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:905
+msgid "zoomOut"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:906
+msgid "zoomOutDown"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:907
+msgid "zoomOutLeft"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:908
+msgid "zoomOutRight"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:909
+msgid "zoomOutUp"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:913
+msgid "Specials"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:915
+msgid "hinge"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:916
+msgid "rollIn"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:917
+msgid "rollOut"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:955
+#: ../solidus-theme/functions/other.php:1015
+msgid "Delete image"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:955
+#: ../solidus-theme/functions/other.php:1015
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:250
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:883
+#: ../solidus-theme/includes/theme-config.php:1902
+msgid "Delete"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:966
+msgid "Add images"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:992
+msgid "Add Images to Product Gallery"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:994
+msgid "Add to gallery"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1453
+msgid "Moderate or heavy snow in area with thunder"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1457
+msgid "Patchy light snow in area with thunder"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1461
+msgid "Moderate or heavy snow showers"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1465
+msgid "Light snow showers"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1469
+msgid "Ice pellets"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1473
+msgid "Heavy snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1477
+msgid "Patchy heavy snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1481
+msgid "Moderate snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1485
+msgid "Patchy moderate snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1489
+msgid "Light snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1493
+msgid "Patchy light snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1497
+msgid "Moderate or heavy sleet"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1501
+msgid "Light sleet"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1505
+msgid "Heavy freezing drizzle"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1509
+msgid "Freezing drizzle"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1513
+msgid "Light drizzle"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1517
+msgid "Patchy light drizzle"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1521
+msgid "Blizzard"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1525
+msgid "Blowing snow"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1529
+msgid "Moderate or heavy rain in area with thunder"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1533
+msgid "Patchy light rain in area with thunder"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1537
+msgid "Thundery outbreaks in nearby"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1541
+msgid "Moderate or heavy showers of ice pellets"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1545
+msgid "Light showers of ice pellets"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1549
+msgid "Moderate or heavy sleet showers"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1553
+msgid "Light sleet showers"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1557
+msgid "Torrential rain shower"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1561
+msgid "Moderate or heavy rain shower"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1565
+msgid "Light rain shower"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1569
+msgid "Moderate or Heavy freezing rain"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1573
+msgid "Light freezing rain"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1577
+msgid "Heavy rain"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1581
+msgid "Heavy rain at times"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1585
+msgid "Moderate rain"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1589
+msgid "Moderate rain at times"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1593
+msgid "Light rain"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1597
+msgid "Patchy light rain"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1601
+msgid "Patchy freezing drizzle nearby"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1605
+msgid "Patchy snow nearby"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1609
+msgid "Patchy rain nearby"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1613
+msgid "Freezing fog"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1617
+msgid "Fog"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1621
+msgid "Mist"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1625
+msgid "Overcast"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1629
+msgid "Cloudy"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1633
+msgid "Partly Cloudy"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1637
+msgid "Sunny"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1641
+msgid "Patchy sleet nearby"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1645
+msgid "Can't get any data."
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1658
+#: ../solidus-theme/functions/other.php:1670
+msgid "Something went wrong with the connection!"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1673
+msgid "This option doesn't work on localhost!"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1677
+msgid "Please set up your API key!"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1705
+msgid "Search Results for"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1713
+msgid "Posts From"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1716
+msgid "Tag"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1724
+msgid "Archive"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1731
+#: ../solidus-theme/includes/admin/general.php:21
+msgid "Blog"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1908
+msgid "<strong>0</strong> comments"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1910
+msgid " comments"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:1912
+msgid "<strong>1</strong> comment"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:2372
+#: ../solidus-theme/functions/other.php:2378
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:2380
+msgid "Author"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:2383
+#, php-format
+msgid " %1$s, %2$s"
+msgstr ""
+
+#: ../solidus-theme/functions/other.php:2388
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:14
+#: ../solidus-theme/includes/top.php:60
+msgid "Top Menu"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:15
+#: ../solidus-theme/includes/top.php:202
+msgid "Main Menu"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:16
+#: ../solidus-theme/includes/top.php:230
+#: ../solidus-theme/includes/admin/style.php:260
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:18
+msgid "Second Footer Menu"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:43
+msgid "Default Main Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:43
+msgid "The default page sidebar."
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:44
+msgid "Default Small Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:44
+msgid "The default small page sidebar."
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:45
+msgid "Footer 1st Column"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:45
+msgid "Footer first column widget area"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:46
+msgid "Footer 2nd Column"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:46
+msgid "Footer second column widget area"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:47
+msgid "Footer 3rd Column"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:47
+msgid "Footer third column widget area"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:48
+msgid "Footer 4th Column"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:48
+msgid "Footer forth column widget area"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:51
+msgid "Woocommerce Page Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:54
+msgid "bbPress Page Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:57
+msgid "BuddyPress Page Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/register.php:60
+msgid ""
+"Sticky sidebar under the main sidebar, that will stay fixed while you scroll "
+"down the page"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:14
+msgid "Settings"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:27
+#: ../solidus-theme/includes/admin/general.php:20
+msgid "General"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:36
+msgid "Post/Page Settings"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:43
+#: ../solidus-theme/functions/solidus-menu.php:841
+#: ../solidus-theme/functions/solidus-menu.php:904
+#: ../solidus-theme/includes/theme-config.php:590
+#: ../solidus-theme/includes/theme-config.php:598
+#: ../solidus-theme/includes/theme-config.php:828
+#: ../solidus-theme/includes/theme-config.php:837
+#: ../solidus-theme/includes/admin/sidebar.php:18
+msgid "Sidebar"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:69
+msgid "Show Image In Single Post / News Page"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:77
+#: ../solidus-theme/functions/solidus-menu.php:140
+#: ../solidus-theme/functions/solidus-menu.php:171
+#: ../solidus-theme/functions/solidus-menu.php:225
+#: ../solidus-theme/functions/solidus-menu.php:251
+#: ../solidus-theme/functions/solidus-menu.php:280
+#: ../solidus-theme/functions/solidus-menu.php:337
+#: ../solidus-theme/functions/solidus-menu.php:364
+#: ../solidus-theme/functions/solidus-menu.php:391
+#: ../solidus-theme/functions/solidus-menu.php:417
+#: ../solidus-theme/functions/solidus-menu.php:443
+#: ../solidus-theme/functions/solidus-menu.php:469
+#: ../solidus-theme/functions/solidus-menu.php:653
+#: ../solidus-theme/functions/solidus-menu.php:669
+#: ../solidus-theme/includes/theme-config.php:2344
+#: ../solidus-theme/includes/admin/general.php:279
+#: ../solidus-theme/includes/admin/general.php:409
+#: ../solidus-theme/includes/admin/general.php:477
+#: ../solidus-theme/includes/admin/general.php:499
+#: ../solidus-theme/includes/admin/general.php:545
+#: ../solidus-theme/includes/admin/general.php:567
+#: ../solidus-theme/includes/admin/general.php:614
+#: ../solidus-theme/includes/admin/general.php:637
+#: ../solidus-theme/includes/admin/general.php:660
+#: ../solidus-theme/includes/admin/general.php:683
+#: ../solidus-theme/includes/admin/general.php:724
+#: ../solidus-theme/includes/admin/general.php:748
+#: ../solidus-theme/includes/admin/sidebar.php:110
+msgid "Show:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:78
+#: ../solidus-theme/functions/solidus-menu.php:141
+#: ../solidus-theme/functions/solidus-menu.php:172
+#: ../solidus-theme/functions/solidus-menu.php:226
+#: ../solidus-theme/functions/solidus-menu.php:252
+#: ../solidus-theme/functions/solidus-menu.php:281
+#: ../solidus-theme/functions/solidus-menu.php:338
+#: ../solidus-theme/functions/solidus-menu.php:365
+#: ../solidus-theme/functions/solidus-menu.php:392
+#: ../solidus-theme/functions/solidus-menu.php:418
+#: ../solidus-theme/functions/solidus-menu.php:444
+#: ../solidus-theme/functions/solidus-menu.php:470
+#: ../solidus-theme/includes/theme-config.php:2345
+#: ../solidus-theme/includes/admin/general.php:410
+#: ../solidus-theme/includes/admin/general.php:478
+#: ../solidus-theme/includes/admin/general.php:500
+#: ../solidus-theme/includes/admin/general.php:546
+#: ../solidus-theme/includes/admin/general.php:568
+#: ../solidus-theme/includes/admin/general.php:615
+#: ../solidus-theme/includes/admin/general.php:638
+#: ../solidus-theme/includes/admin/general.php:661
+#: ../solidus-theme/includes/admin/general.php:684
+#: ../solidus-theme/includes/admin/general.php:725
+#: ../solidus-theme/includes/admin/general.php:749
+msgid "Hide:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:100
+msgid "Image style in single post/page"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:108
+#: ../solidus-theme/includes/admin/general.php:431
+msgid "Small Image:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:109
+#: ../solidus-theme/includes/admin/general.php:432
+msgid "Full Width Image:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:132
+msgid "Show Title In Single Post/Page"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:164
+msgid "Post Author"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:218
+msgid "Post Date"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:244
+msgid "Post Views"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:272
+msgid "\"Similar News\" Block In Gallery"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:330
+#: ../solidus-theme/includes/admin/general.php:717
+msgid "Show Share Buttons"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:357
+msgid "Show Post Comments Count"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:384
+msgid "Post Categories"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:410
+msgid "Post Tags"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:436
+msgid "\"Similar News\" Block In Post"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:462
+msgid "\"About Author\" Block In Post"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:530
+msgid "Page Color For Main Menu"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:550
+msgid "Blog Style"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:558
+#: ../solidus-theme/functions/solidus-menu.php:787
+msgid "Default:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:559
+msgid "Grid:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:560
+msgid "Post List Style 2:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:644
+msgid "Show This Post in Featured News at Header"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:664
+msgid "Show This Post In Main Slider?"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:705
+msgid "Review Settings"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:712
+msgid "Rating"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:714
+msgid ""
+"Enter the ratings like this - Graphics:5; Gameplay:4,5; Sound:3; Storyline:4"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:719
+msgid "Summary"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:734
+msgid "Contact Page Email"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:739
+msgid "Email:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:754
+msgid "Contact Page Google Map"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:759
+msgid "Embed Code:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:778
+msgid "Gallery Style"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:788
+msgid "Lightbox:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:820
+msgid "Main Sidebar Side"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:827
+#: ../solidus-theme/functions/solidus-menu.php:890
+#: ../solidus-theme/includes/admin/sidebar.php:44
+#: ../solidus-theme/includes/admin/sidebar.php:90
+msgid "Right:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:828
+#: ../solidus-theme/functions/solidus-menu.php:891
+#: ../solidus-theme/includes/admin/sidebar.php:43
+#: ../solidus-theme/includes/admin/sidebar.php:89
+msgid "Left:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:836
+msgid "Main Sidebar Name"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:844
+#: ../solidus-theme/functions/solidus-menu.php:863
+#: ../solidus-theme/functions/solidus-menu.php:906
+#: ../solidus-theme/includes/theme-config.php:831
+#: ../solidus-theme/includes/theme-config.php:840
+msgid "Off"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:852
+msgid "Sticky Sidebar Name"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:883
+msgid "Second Sidebar Side"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:899
+msgid "Second Sidebar Name"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:907
+#: ../solidus-theme/includes/theme-config.php:600
+#: ../solidus-theme/includes/theme-config.php:839
+msgid "Default Small"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:947
+msgid "Post Custom Settings"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:1039
+msgid "Security check"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:1095
+msgid "Main Slider Image"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:1095
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:34
+msgid "Image:"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:1099
+msgid "Gallery Images"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:1103
+msgid "Portfolio Images"
+msgstr ""
+
+#: ../solidus-theme/functions/solidus-menu.php:1111
+msgid "Homepage Builder"
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:250
+msgid "Delete this image"
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:357
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:596
+msgid "Add"
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:879
+msgid "Uploaded files"
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:890
+msgid "Upload new files"
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:896
+msgid "Add more files"
+msgstr ""
+
+#: ../solidus-theme/functions/tax-meta-class/tax-meta-class.php:948
+msgid "Select a color"
+msgstr ""
+
+#: ../solidus-theme/includes/banners.php:20
+#: ../solidus-theme/includes/banners.php:29
+#: ../solidus-theme/includes/banners.php:40
+#: ../solidus-theme/includes/theme-config.php:700
+#: ../solidus-theme/includes/theme-config.php:776
+#: ../solidus-theme/includes/theme-config.php:907
+msgid "Close"
+msgstr ""
+
+#: ../solidus-theme/includes/gallery-single-style-1.php:103
+msgid "Similar Photo Gallery"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:35
+msgid "article"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:35
+msgid "articles"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:44
+msgid "0 comments"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:44
+msgid "1 comment "
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:44
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:50
+msgid "Share"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:62
+msgid "Pages:"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:67
+msgid "Next page"
+msgstr ""
+
+#: ../solidus-theme/includes/news-single.php:68
+msgid "Previous page"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:392
+msgid "You didn't create a slider yet."
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:618
+msgid "Columns & Layouts"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:619
+msgid "Block Added.."
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:621
+msgid "Layouts"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:626
+#: ../solidus-theme/includes/theme-config.php:631
+#: ../solidus-theme/includes/theme-config.php:638
+#: ../solidus-theme/includes/theme-config.php:644
+#: ../solidus-theme/includes/theme-config.php:964
+#: ../solidus-theme/includes/theme-config.php:984
+msgid "Click to add block layout"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:651
+msgid "Columns"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:685
+#: ../solidus-theme/includes/theme-config.php:686
+#: ../solidus-theme/includes/theme-config.php:764
+#: ../solidus-theme/includes/theme-config.php:895
+#: ../solidus-theme/includes/theme-config.php:1902
+msgid "Edit"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:706
+#: ../solidus-theme/includes/theme-config.php:809
+#: ../solidus-theme/includes/theme-config.php:938
+#: ../solidus-theme/includes/theme-config.php:1008
+msgid "Save"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:706
+#: ../solidus-theme/includes/theme-config.php:809
+#: ../solidus-theme/includes/theme-config.php:938
+#: ../solidus-theme/includes/theme-config.php:1008
+msgid "Saving.."
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:718
+msgid ""
+"To add content to your Hompage, drag &amp; drop blocks from Available to "
+"Active area "
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:721
+msgid "Active homepage blocks"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:983
+msgid "Drag block here to delete it"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:988
+msgid "Pagebuilder Import/Export"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:994
+#: ../solidus-theme/includes/admin/general.php:111
+msgid "Export Settings"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1000
+#: ../solidus-theme/includes/admin/general.php:118
+msgid "Import Settings"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1085
+msgid "Export"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1130
+msgid "Import"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1187
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:35
+msgid "Choose File"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1563
+msgid "Add Media"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1569
+msgid "Sample:"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1849
+#, php-format
+msgid ""
+"This options is disabled, to enable it you must set this option in %1$stheme "
+"management panel%2$s to custom."
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1902
+msgid "Sidebar name:"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1960
+msgid "Add/Save"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:1960
+msgid "Adding..."
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2018
+msgid "Woocommerce"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2021
+msgid "bbPRess"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2024
+msgid "BudyPress"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2311
+msgid "Gallery Settings"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2317
+msgid "Items per gallery page:"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2336
+msgid "Show \"Similar Posts\" In Single Galley"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2346
+msgid "Custom For Each Gallery Page:"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2359
+#: ../solidus-theme/includes/admin/general.php:358
+#: ../solidus-theme/includes/admin/general.php:760
+#: ../solidus-theme/includes/admin/general.php:880
+#: ../solidus-theme/includes/admin/style.php:108
+#: ../solidus-theme/includes/admin/style.php:240
+#: ../solidus-theme/includes/admin/style.php:364
+msgid "Save Changes"
+msgstr ""
+
+#: ../solidus-theme/includes/theme-config.php:2428
+msgid "Saving..."
+msgstr ""
+
+#: ../solidus-theme/includes/top.php:129
+msgid "No posts where found, please edit a post and set it as featured post."
+msgstr ""
+
+#: ../solidus-theme/includes/top.php:174
+msgid "Search something.."
+msgstr ""
+
+#: ../solidus-theme/includes/top.php:191
+#: ../solidus-theme/includes/admin/style.php:303
+msgid "Menu"
+msgstr ""
+
+#: ../solidus-theme/includes/top.php:191
+msgid "toggle menu"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:22
+msgid "Contact/Footer"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:23
+msgid "Banners"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:56
+msgid "Load dynamic js/css files directly in header"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:61
+msgid ""
+"Load in Header (this improves your page speed on some servers, but it "
+"depends on server configuration):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:67
+msgid "Allow to Output JavaScript and All HTML tags in Dynamic Data in Theme:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:81
+msgid "Add logo image"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:86
+msgid "Add Header Logo Image"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:87
+msgid "Suggested image size is 523x55px"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:92
+msgid "Add Header Retina Logo Image"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:93
+msgid "Suggested image size is 1046x110px"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:106
+msgid "Export/Import Theme Settings"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:152
+#: ../solidus-theme/includes/admin/general.php:380
+msgid "Unit Settings"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:157
+msgid "Show Search In Header:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:163
+msgid "Hide Duplicate Posts On Homepage:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:272
+msgid "Show Featured News In Header"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:288
+msgid "Featured News Categories"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:327
+msgid "Show Shopping Cart In Main Menu"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:332
+msgid "Show Shopping Cart:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:344
+msgid "Show Buddypress Link In Main Menu"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:349
+msgid "Show Buddypress Link:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:385
+msgid "Show thumbnails in blog post list:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:391
+msgid "Show image placeholders, when no thumbnail is available:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:402
+msgid "Show thumbnail in open post/page"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:411
+#: ../solidus-theme/includes/admin/general.php:433
+#: ../solidus-theme/includes/admin/general.php:479
+#: ../solidus-theme/includes/admin/general.php:501
+#: ../solidus-theme/includes/admin/general.php:547
+#: ../solidus-theme/includes/admin/general.php:569
+#: ../solidus-theme/includes/admin/general.php:616
+#: ../solidus-theme/includes/admin/general.php:639
+#: ../solidus-theme/includes/admin/general.php:662
+#: ../solidus-theme/includes/admin/general.php:685
+#: ../solidus-theme/includes/admin/general.php:750
+msgid "Custom For Each Post:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:424
+msgid "Featured image style in single post/page"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:470
+msgid "Show Post Title In Single Post/Page"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:492
+msgid "Show Post Author"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:538
+msgid "Show Post Date"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:560
+msgid "Show Post Views"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:607
+msgid "Show Categories"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:630
+msgid "Show Tags In Single Post"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:653
+msgid "Show \"About Author\" In Single Post"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:676
+#: ../solidus-theme/includes/admin/general.php:692
+msgid "Show \"Similar News\" In Single Post"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:699
+msgid "By categories"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:700
+msgid "By tags"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:726
+msgid "Custom For Each Post/Page:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:741
+msgid "Show Post Comment Count"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:845
+msgid "Twitter Account"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:850
+msgid "Twitter Account Name:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:864
+msgid "Footer CopyRight"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:926
+msgid "Header Banner"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:934
+msgid "Enable Banner"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:944
+msgid "Banner HTML Code"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:966
+msgid "Select Pop Up Banner Type"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/general.php:1164
+msgid "Gallery"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:36
+msgid "Default Main Sidebar Position"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:45
+#: ../solidus-theme/includes/admin/sidebar.php:91
+msgid "Custom For Each Page:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:82
+msgid "Default Second Sidebar Position"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:105
+msgid "Show The Sticky Sidebar Under Main Sidebar"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:125
+msgid "Add Sidebar"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:130
+msgid "Add New Sidebar:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:144
+msgid "Sidebar Sequence"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:145
+msgid "To sort the slides just drag and drop them!"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/sidebar.php:150
+msgid "Order Sidebars"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:6
+msgid "Style Settings"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:18
+msgid "Font Style"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:19
+msgid "Page Colors/Style"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:20
+msgid "Layout"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:38
+msgid "Fonts"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:43
+msgid "Titles & Menu Font:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:46
+#: ../solidus-theme/includes/admin/style.php:54
+msgid ""
+"Font previews You Can find here: <a href='http://www.google.com/webfonts' "
+"target='_blank'>Google Fonts</a>"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:51
+msgid "Paragraph Font:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:69
+msgid "Font Character Sets"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:74
+msgid "Cyrillic Extended (cyrillic-ext):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:79
+msgid "Cyrillic (cyrillic):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:84
+msgid "Greek Extended (greek-ext):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:89
+msgid "Greek (greek):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:94
+msgid "Vietnamese (vietnamese):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:99
+msgid "Latin Extended (latin-ext):"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:128
+msgid "Header/Sidebar Style"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:133
+msgid "Light:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:145
+msgid "Default Category/News page Color"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:163
+msgid "Colors"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:169
+msgid "Main color scheme:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:184
+msgid "Body Backgrounds (only boxed view)"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:191
+msgid "Pattern:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:192
+msgid "Custom Image:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:200
+msgid "Patterns "
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:203
+msgid "Texture 1"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:204
+msgid "Texture 2"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:205
+msgid "Texture 3"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:206
+msgid "Texture 4"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:207
+msgid "Texture 5"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:216
+msgid "Body Background Color:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:226
+msgid "Body Background Image:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:267
+msgid "Closed by Default:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:268
+msgid "Opened by Default:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:281
+msgid "Header Style"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:288
+msgid "Logo + Featured News:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:289
+msgid "Logo + Banner:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:290
+msgid "Logo:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:310
+msgid "Sticky:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:311
+msgid "Fixed:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:325
+msgid "Enable Responsive"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:330
+msgid "Enable"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:345
+msgid "Page Layout"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:352
+msgid "Boxed:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/style.php:353
+msgid "Wide:"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:200
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:201
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:202
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:203
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:214
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:215
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:394
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3244
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/default-values.php:216
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../solidus-theme/includes/admin/functions/general.php:107
+msgid " Management"
+msgstr ""
+
+#: ../solidus-theme/includes/home-blocks/latest-news-1.php:54
+msgid "right"
+msgstr ""
+
+#: ../solidus-theme/includes/home-blocks/latest-news-1.php:55
+msgid "left"
+msgstr ""
+
+#: ../solidus-theme/includes/home-blocks/latest-news-2.php:61
+#: ../solidus-theme/includes/home-blocks/latest-news-3.php:73
+#: ../solidus-theme/includes/home-blocks/latest-news-4.php:59
+msgid "Read more"
+msgstr ""
+
+#: ../solidus-theme/includes/home-blocks/latest-news-5.php:89
+#: ../solidus-theme/includes/home-blocks/latest-news-6.php:84
+msgid "read more..."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:393
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:912
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2618
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3665
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:1019
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:1019
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:1022
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2358
+msgid "Required"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2361
+msgid "Recommended"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2377
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2380
+msgid "External Source"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2383
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2400
+msgid "Not Installed"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2404
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2406
+msgid "Active"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2412
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2415
+msgid "Requires Update"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2418
+msgid "Update recommended"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2575
+msgid "Installed version:"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2583
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2595
+msgid "Available version:"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2618
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2632
+msgid "Plugin"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2633
+msgid "Source"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2634
+msgid "Type"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2638
+msgid "Version"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2639
+msgid "Status"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2688
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2693
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2699
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2769
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2802
+msgid "Install"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2808
+msgid "Update"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2811
+msgid "Activate"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2842
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2844
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2885
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2887
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:2993
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3019
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3243
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3583
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3586
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3588
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3592
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3594
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3602
+msgid "Show Details"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3594
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3602
+msgid "Hide Details"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3595
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3597
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3603
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../solidus-theme/includes/lib/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/no-post.php:17
+msgid "No Articles Found"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/no-post.php:18
+#, php-format
+msgid ""
+"Sorry, there are no articles here ! <br/>You can <a href=\"%1$s\">contact "
+"us</a> to resolve this problem !"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/no-post.php:19
+#, php-format
+msgid "Or You can still <a href=\"%1$s\">go back to Homepage</a> !"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:53
+#: ../solidus-theme/includes/loop/post.php:97
+msgid "Comments 0"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:53
+#: ../solidus-theme/includes/loop/post.php:97
+msgid "Comment 1"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:53
+#: ../solidus-theme/includes/loop/post.php:97
+msgid "Comments %"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:152
+msgid "0 Comments"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:152
+msgid "1 Comment"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:152
+msgid "% Comments"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:155
+msgid "view"
+msgstr ""
+
+#: ../solidus-theme/includes/loop/post.php:155
+msgid "views"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:37
+msgid "Score:"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:41
+#: ../solidus-theme/includes/single/post-ratings.php:96
+msgid "out of 5"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:55
+msgid "Overall"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:71
+msgid "Excellent"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:73
+msgid "Good"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:75
+msgid "Average"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:77
+msgid "Fair"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:79
+msgid "Poor"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-ratings.php:81
+msgid "Very Poor"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-related.php:73
+msgid "Related articles"
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-related.php:110
+msgid "Sorry, no posts were found."
+msgstr ""
+
+#: ../solidus-theme/includes/single/post-tags-categories.php:12
+msgid "Tags"
+msgstr ""
+
+#: ../solidus-theme/includes/single/share.php:9
+msgid "Facebook"
+msgstr ""
+
+#: ../solidus-theme/includes/single/share.php:14
+msgid "Twitter"
+msgstr ""
+
+#: ../solidus-theme/includes/single/share.php:19
+msgid "Google+"
+msgstr ""
+
+#: ../solidus-theme/includes/single/share.php:24
+msgid "LinkedIn"
+msgstr ""
+
+#: ../solidus-theme/includes/single/share.php:30
+msgid "Pinterest"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad160x600.php:28
+msgid ""
+"A widget that allows the display and configuration of of a single 160x600 "
+"Banner."
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad160x600.php:34
+msgid " Custom 160x600 Ad"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad160x600.php:108
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:135
+msgid "Ad image url:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad160x600.php:114
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:141
+msgid "Ad link url:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:27
+msgid ""
+"A widget that allows the display and configuration of of a single 300x250 "
+"Banner."
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:33
+msgid " Custom 300x250 Ad"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:124
+msgid "Subtitle:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-ad300x250.php:129
+msgid "Subtitle link:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:6
+msgid "Widget With Image And Text"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:38
+msgid "Phone:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-about.php:40
+msgid "Address:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-cat.php:12
+msgid "Categories"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-comments.php:6
+msgid " Latest Comments"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-comments.php:12
+msgid "Recent Comments"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-comments.php:23
+msgid "Comment count:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-comments.php:78
+msgid "Read all comments..."
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-gallery.php:6
+#: ../solidus-theme/includes/widgets/widget-solidus-gallery.php:12
+msgid "Latest Galleries"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-gallery.php:24
+msgid "Item shown:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:6
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:12
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:12
+msgid "Latests News"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:26
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:27
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:26
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:26
+msgid "Category:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:46
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:48
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:46
+msgid "Images:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:48
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:50
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:48
+msgid "Show"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:49
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:51
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:49
+msgid "Hide"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:53
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:55
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:53
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:53
+msgid "Post count:"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-latest-posts.php:165
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:171
+#: ../solidus-theme/includes/widgets/widget-solidus-reviews.php:164
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:147
+msgid "No posts where found"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:6
+#: ../solidus-theme/includes/widgets/widget-solidus-popular-posts.php:12
+msgid "Popular Posts"
+msgstr ""
+
+#: ../solidus-theme/includes/widgets/widget-solidus-timeline.php:6
+msgid "Timeline"
+msgstr ""
