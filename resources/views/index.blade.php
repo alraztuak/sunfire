@@ -39,7 +39,7 @@
 											<div class="item">
 												<div class="item-header">
 													<a href="{{ route('contentortax.show', ['id'=> $highlightmain->idref, 'param'=> $highlightmain->modul] ) }}">
-													<span class="item-header-category"><i class="fa fa-folder-open"></i><span>{{ $highlightmain->modul }}</span></span>
+													<span class="item-header-category"><i class="fa fa-folder-open"  style="background-color: #196798;"></i><span>{{ $highlightmain->modul }}</span></span>
 														<img src="{{ asset('storage/'.$highlightmain->splash) }}" srcset="{{ asset('storage/'.$highlightmain->splash) }}" alt="{{ $highlightmain->judul }}"/>                                   
 													</a>
 												</div>
@@ -138,12 +138,12 @@
 										</div>
 										<div class="column5">
 											<div class="item-content" style="color:#fff;background-color: #196798;padding:10px">
-												<h3 style="font-size:16px">Peraturan</h3>
+												<h3 style="font-size:14px">Peraturan</h3>
 											</div>
 										</div>
 										<div class="column5">
 											<div class="item-content" style="color:#000;background-color: #dedede;padding:10px">
-												<h3 style="font-size:16px"># Terbaru</h3>
+												<h3 style="font-size:14px"># Terbaru</h3>
 											</div>
 										</div>
 									</div>
@@ -216,43 +216,57 @@
 									</div>
 									<div class="column10">
 										<div class="item-content" style="color:#fff;background-color: #196798;padding:10px">
-											<h3 style="font-size:16px">Data dan informasi lainnya</h3>
+											<h3 style="font-size:14px">Data dan informasi lainnya</h3>
 										</div>
 									</div>
 								</div>						<!-- BEGIN .item -->
 							<div class="reviews-block lets-do-3" style="padding:10px">
 								<div class="item">
 									<div class="item-header">
-										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/">
+										<a href="{{ route('treatyortax.list') }}">
 										<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/>
 										</a>
 									</div>
-									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
-										<h3 style="font-size:16px">Tax Treaty/P3B</h3>
+									<div class="item-content text-center" style="background-color: #196798;">
+										<a href="{{ route('treatyortax.list') }}">
+											<h3 style="font-size:16px">Tax Treaty/P3B</h3>
+										</a>
 									</div>
 								</div>
 								<div class="item">
 									<div class="item-header">
-										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
+										<a href="{{ route('putusanortax.list') }}">
+											<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/>
+										</a>
 									</div>
-									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
-										<h3 style="font-size:16px">Putusan Pengadilan</h3>
-									</div>
-								</div>
-								<div class="item">
-									<div class="item-header">
-										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
-									</div>
-									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
-										<h3 style="font-size:16px">Kurs Pajak</h3>
+									<div class="item-content text-center" style="background-color: #196798;">
+										<a href="{{ route('putusanortax.list') }}">
+											<h3 style="font-size:16px">Putusan Pengadilan</h3>
+										</a>
 									</div>
 								</div>
 								<div class="item">
 									<div class="item-header">
-										<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
+										<a href="#">
+											<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/>
+										</a>
 									</div>
-									<div class="item-content text-center" style="color:#fff;background-color: #196798;">
-										<h3 style="font-size:16px">Kurs BI</h3>
+									<div class="item-content text-center" style="background-color: #196798;">
+										<a href="#">
+											<h3 style="font-size:16px">Kurs Pajak</h3>
+										</a>
+									</div>
+								</div>
+								<div class="item">
+									<div class="item-header">
+										<a href="#">
+											<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/>
+										</a>
+									</div>
+									<div class="item-content text-center" style="background-color: #196798;">
+										<a href="#">
+											<h3 style="font-size:16px">Kurs BI</h3>
+										</a>
 									</div>
 								</div>
 							</div>
@@ -260,21 +274,30 @@
 						</div>
 					
 					</div>	
+
+				<div class="banner">
+					<a href="#" target="_blank">
+						<img src="http://solidus.orange-themes.net/wp-content/themes/solidus-theme/images/no-banner-728x90s.jpg" />
+					</a>
+				</div>
 			</div>
 		
 <!-- Tax Tools -->
 				
 			<div class="ot-panel-block dark-scheme">
 					<div class="title-block">
-						<h2 style="background-color: #A30000;">Tax Tools</h2>
+						<h2>Tax Tools</h2>
 					</div>
 						<div class="reviews-block lets-do-3">
 							<div class="item">
 								<div class="item-header">
-									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
+									<a href="#">
+										<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="#"/>
+									</a>
 								</div>
 								<div class="item-content">
-									<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/">How to Sail the British Virgin Islands for Free</a></h3>
+								<h2>KALKULATOR PPh21<br />MASA</h2>
+									<h3><a href="#">Yakin perhitungan PPh Pasal 21 karyawan diperusahaan Anda sudah benar ? Silahkan uji dengan perangkat canggih yang mampu mengakomodir berbagai kondisi karyawan.</a></h3>
 								</div>
 							</div>
 							<div class="item">
@@ -282,7 +305,8 @@
 									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/m6rT4MYFQ7CT8j9m2AEC_JakeGivens-Sunset-in-the-Park-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/m6rT4MYFQ7CT8j9m2AEC_JakeGivens-Sunset-in-the-Park-734x464_c.jpg 1900w" alt="Why Road Trips are a Good Idea for Family Travel"/></a>
 								</div>
 								<div class="item-content">
-									<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/">Why Road Trips are a Good Idea for Family Travel</a></h3>
+								<h2>KALKULATOR PPh21<br />MASA PAJAK TERAKHIR</h2>
+									<h3><a href="#">Ada karyawan resign ? Mau buat perhitungan untuk Masa Pajak Desember karyawan ? Perangkat canggih yang satu ini dapat diandalkan untuk menguji perhitungan Anda.</a></h3>
 								</div>
 							</div>
 							<div class="item">
@@ -290,7 +314,8 @@
 									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-734x464_c.jpg 1900w" alt="Can Keurig stop coffee pirates with cups that can&#8217;t be copied?"/></a>
 								</div>
 								<div class="item-content">
-									<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/">Can Keurig stop coffee pirates with cups that can&#8217;t be copied?</a></h3>
+								<h2>TP DOC TRESHOLD<br />TEST WIZARD</h2>
+									<h3><a href="#">Masih bingung apakah Perusahaan Anda wajib atau tidak menyelenggarakan Transfer Pricing Documentation atau TP Doc ? Wizard ini dapat membantu Anda menjawabnya</a></h3>
 								</div>
 							</div>
 							<div class="item">
@@ -298,7 +323,7 @@
 									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-734x464_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/></a>
 								</div>
 								<div class="item-content">
-									<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/">How to Sail the British Virgin Islands for Free</a></h3>
+									<h3><a href="#"><i class="fa fa-lg fa-file-text-o"></i>&nbsp;&nbsp;Formulir Perpajakan</a></h3>
 								</div>
 							</div>
 							<div class="item">
@@ -306,7 +331,7 @@
 									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/m6rT4MYFQ7CT8j9m2AEC_JakeGivens-Sunset-in-the-Park-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/m6rT4MYFQ7CT8j9m2AEC_JakeGivens-Sunset-in-the-Park-734x464_c.jpg 1900w" alt="Why Road Trips are a Good Idea for Family Travel"/></a>
 								</div>
 								<div class="item-content">
-									<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/">Why Road Trips are a Good Idea for Family Travel</a></h3>
+									<h3><a href="#"><i class="fa fa-lg fa-desktop"></i>&nbsp;&nbsp;Aplikasi Pajak</a></h3>
 								</div>
 							</div>
 							<div class="item">
@@ -314,71 +339,98 @@
 									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/"><img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-734x464_c.jpg 1900w" alt="Can Keurig stop coffee pirates with cups that can&#8217;t be copied?"/></a>
 								</div>
 								<div class="item-content">
-									<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/">Can Keurig stop coffee pirates with cups that can&#8217;t be copied?</a></h3>
+									<h3><a href="#"><i class="fa fa-lg fa-map-marker"></i>&nbsp;&nbsp;Daftar Alamat KPP</a></h3>
 								</div>
 							</div>
 						</div>
 			
 			</div>
-		
+
+<!-- Iklan -->
+
+<div class="ot-panel-block">
+	<div class="banner">
+		 <a href="#" target="_blank">
+			 <img src="http://solidus.orange-themes.net/wp-content/themes/solidus-theme/images/no-banner-728x90s.jpg" />
+		</a>
+	</div>
+</div>
+
 <!-- KnowledgeBase -->
 			<div class="ot-panel-block">
-						<div class="title-block">
-						<h2 style="background-color: #E14F55;">Creative</h2>
+					<div class="title-block">
+						<h2>Knowledge Base</h2>
 					</div>
 						<div class="article-grid articles-long">
 							<div class="item">
 								<div class="item-header">
-									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-14/">
-																		<span class="item-header-category"><i class="fa fa-folder-open"></i><span>Creative</span></span>
-																	<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/elegant-woman-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/elegant-woman-734x464_c.jpg 1900w" alt="Marilyn Minter on Her First Major Retrospective"/>                        </a>
+									<a href="#">
+									<span class="item-header-category">
+										<i class="fa fa-book"></i><span>Buku Elektronik Pajak</span>
+									</span>
+										<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/elegant-woman-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/elegant-woman-734x464_c.jpg 1900w" alt="Marilyn Minter on Her First Major Retrospective"/>                        
+									</a>
 								</div>
 								<div class="item-content">
 									<div class="item-content-head">
-																		<div class="item-content-date">
-												<strong>13</strong>
-												<span>Apr</span>
-												<span>2015</span>
-											</div>
-																	<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-14/">Marilyn Minter on Her First Major Retrospective</a></h3>
+										<h4 style="margin-left:0px;"><a href="#">Buku Elektronik Pajak</a></h4>
+										<p style="color:#000">KUP, PPh, PPN &amp; PPnBM, PBB, BPHTB, Bea Meterai dan Tax Amnesty</p>
 									</div>
-									<p>The Mathematical Symphony of Typography As it turns out, this symphony is not unique to websites. You “hear” it every time you read a book, newspaper, magazine, or web site—every place where typography exists. At first glance, you might think that typography and math have nothing to do with one another. After all, typography consists of letters and words, and math is…well…numbers. But the truth is, typography is a combination of artistic letterforms and mathematical proportions, an exquisite marriage of form and function. Lorem ipsum dolor sit amet, his ad homero quodsi. Definitiones vituperatoribus mei et. Simul regione ea quo,</p>
+									<p>ebook ini tersaji secara sistematis, lengkap dan komprehensif. Fasilitas Hyperlink ke peraturan dan pencarian membuat belajar pajak semakin mudah. Bagi Anda yang ingin mendalami pajak, ebook ini dapat menjadi titik awal. Silahkan di explore ...</p>
 								
 								</div>
 								<div class="item-footer">
 									<button class="article-more-arrow right"><i class="fa fa-caret-right"></i><i class="show-hover">Read more</i></button>
 									<div class="item-meta">
-																		<a href="http://solidus.orange-themes.net/author/admin/"><i class="fa fa-pencil"></i>Orange Themes</a>
-																	
-																		<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-14/#comments"><i class="fa fa-comment"></i>0</a>
-																</div>
+										<a href="#"><i class="fa fa-pencil"></i>Redaksi Ortax</a>
+										<a href="#"><i class="fa fa-calendar"></i>9 Sep 2019</a>
+									</div>
 								</div>
 							</div>
 							<div class="item">
 								<div class="item-header">
-									<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-13/">
-																		<span class="item-header-category"><i class="fa fa-folder-open"></i><span>Fashion</span></span>
-																	<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417870839255-a23faa90c6b0-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417870839255-a23faa90c6b0-734x464_c.jpg 1900w" alt="Has Technology Ruined the Travel Experience?"/>                        </a>
+									<a href="#">
+										<span class="item-header-category"><i class="fa fa-pencil-square-o"></i><span>Resume Ketentuan Pajak</span></span>
+										<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417870839255-a23faa90c6b0-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417870839255-a23faa90c6b0-734x464_c.jpg 1900w" alt="Has Technology Ruined the Travel Experience?"/>                        
+									</a>
 								</div>
 								<div class="item-content">
 									<div class="item-content-head">
-																		<div class="item-content-date">
-												<strong>13</strong>
-												<span>Apr</span>
-												<span>2015</span>
-											</div>
-																	<h3><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-13/">Has Technology Ruined the Travel Experience?</a></h3>
+										<h4 style="margin-left:0px;"><a href="#">Resume Ketentuan Pajak</a></h4>
+										<p style="color:#000">Objek &amp; Tarif PPh, Norma Penghitungan Penghasilan Neto, Rangkuman PTKP, Batas Waktu dsb</p>
 									</div>
-									<p>The Mathematical Symphony of Typography As it turns out, this symphony is not unique to websites. You “hear” it every time you read a book, newspaper, magazine, or web site—every place where typography exists. At first glance, you might think that typography and math have nothing to do with one another. After all, typography consists of letters and words, and math is…well…numbers. But the truth is, typography is a combination of artistic letterforms and mathematical proportions, an exquisite marriage of form and function. Lorem ipsum dolor sit amet, his ad homero quodsi. Definitiones vituperatoribus mei et. Simul regione ea quo,</p>
+									<p>Ringkasan beberapa ketentuan perpajakan yang disusun secara komprehensif dan diupdate secara reguler. Dengan resume Anda dapat dengan mudah dan cepat menemukan informasi yang Anda butuhkan tanpa harus membaca Peraturan satu per satu.</p>
 								
 								</div>
 								<div class="item-footer">
 									<button class="article-more-arrow right"><i class="fa fa-caret-right"></i><i class="show-hover">Read more</i></button>
 									<div class="item-meta">
-																		<a href="http://solidus.orange-themes.net/author/admin/"><i class="fa fa-pencil"></i>Orange Themes</a>
-																	
-																		<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-13/#comments"><i class="fa fa-comment"></i>0</a>
-																</div>
+										<a href="#"><i class="fa fa-pencil"></i>Redaksi Ortax</a>
+										<a href="#"><i class="fa fa-calendar"></i>9 Sep 2019</a>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="item-header">
+									<a href="#">
+										<span class="item-header-category"><i class="fa fa-bookmark"></i><span>ePublications</span></span>
+										<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-367x232_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-367x232_c.jpg 1900w" alt="Has Technology Ruined the Travel Experience?"/>                        
+									</a>
+								</div>
+								<div class="item-content">
+									<div class="item-content-head">
+										<h4 style="margin-left:0px;"><a href="#">ePublications</a></h4>
+										<p style="color:#000">Ortax Bulletin dan Ortax Booklet</p>
+									</div>
+									<p>Ortax Bulletin dan Ortax Booklet merupakan konten yang dapat diunduh gratis. Bulletin banyak membahas materi pajak baik dalam bentuk tulisan maupun wawancara. Booklet merupakan dokumentasi peraturan terkait topik tertentu</p>
+								
+								</div>
+								<div class="item-footer">
+									<button class="article-more-arrow right"><i class="fa fa-caret-right"></i><i class="show-hover">Read more</i></button>
+									<div class="item-meta">
+										<a href="#"><i class="fa fa-pencil"></i>Redaksi Ortax</a>
+										<a href="#"><i class="fa fa-calendar"></i>9 Sep 2019</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -414,6 +466,14 @@
 			</div>
 	</div> 	
 
+	<div class="widget-3 last widget tz_ad600_widget">
+		  	<div class="ot-widget-banner">
+			<a href="http://www.orange-themes.net" target="_blank">
+				<img src="http://solidus.orange-themes.net/wp-content/themes/solidus-theme/images/no-banner-160x600.jpg" alt="Banner"/>
+			</a>
+			</div>
+		</div>	
+		
 	<div class="widget-2 widget widget_ot_cat_posts">	
 		<div class="title-block"><h2>Fashion</h2></div>			
 		<div class="article-block">

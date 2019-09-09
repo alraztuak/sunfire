@@ -2146,7 +2146,7 @@ select {
 .article-classic .featured-side .item .item-content-date {
 	display: block;
 	float: left;
-	color: #9e2929;
+	color: #196798;
 	font-family: 'Oswald', sans-serif;
 	text-transform: uppercase;
 }
@@ -2325,7 +2325,7 @@ select {
 .article-grid .item .item-header .item-header-category i.fa {
 	display: inline-block;
 	padding: 0 9px;
-	background-color: #9e2929;
+	background-color: #196798;
 }
 
 .article-grid .item .item-header .item-header-category span {
@@ -3513,11 +3513,11 @@ body .title-block .title-links a {
 }
 
 .reviews-block a {
-	color: #929292;
+	color: #fff;
 }
 
 .reviews-block a:hover {
-	color: #fff;
+	color: #929292;
 }
 
 .reviews-block:after {
@@ -3534,6 +3534,15 @@ body .title-block .title-links a {
 .reviews-block .item .item-content {
 	display: block;
 	padding: 14px;
+}
+
+.reviews-block .item .item-content h2 {
+	display: block;
+	border-bottom: 1px solid #555353;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	font-size: 18px;
+	line-height: 20px;
 }
 
 .reviews-block .item .item-content h3 {

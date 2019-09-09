@@ -17,7 +17,7 @@ class WelcomeController extends Controller
                 ->where('b.judul','=','berita')
                 ->where('a.status','=','1')
                 ->orderby('a.id','desc')
-                ->limit(4)
+                ->limit(5)
                 ->get();
 
         $highlight = DB::table('highlights')
