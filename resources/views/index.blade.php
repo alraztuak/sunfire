@@ -17,6 +17,8 @@
 
 <!-- BEGIN .split-blocks -->
 <div class="paragraph-row row">
+
+<!-- Konten utama -->
 <div  class="main-content column7 ot-scrollnimate">
 
 		
@@ -439,81 +441,101 @@
 	</div>	
 
 </div>
+<!-- End Konten -->
 
-
+<!-- Sidebar kecil -->
 <aside  id="sidebar-small" data-animation="fadeInUpSmall" class="small-sidebar column2 ot-scrollnimate">
-
-				
-	<div class="widget-1 first widget widget_ot_cat_posts">	
-		<div class="title-block"><h2>Latests News</h2></div>			
-			<div class="article-block without-images">
-				@foreach($berita as $beritaitem)
-				<div class="item no-image">
-					<div class="item-content">
-							<span class="article-meta left meta-date">
-								<i class="fa fa-calendar"></i>{{ date('d M Y', strtotime($beritaitem->created_at)) }}
-							</span>
-						<div class="clear-float"></div>
-							<h4>
-								<a href="{{ route('contentortax.show', ['id'=> $beritaitem->id, 'param'=> $beritaitem->kategori] ) }}">
-								{!! \Illuminate\Support\Str::words($beritaitem->judul, 7,'...')  !!}
-								</a>
-							</h4>
-							<p>{!! \Illuminate\Support\Str::words($beritaitem->isi, 15,'...')  !!}</p>
+<!-- Trending Topic -->	
+		<div class="widget-1 first widget widget_ot_cat_posts">	
+			<div class="title-block"><h2>Trending Topic</h2></div>			
+				<div class="article-block without-images">
+					<div class="item no-image">
+						<div class="item-content">
+						@foreach($trending as $trendingitem)
+								<h4>
+									<a href="{{ route('trendingortax.list', ['id'=> $trendingitem->id]) }}">
+									#{{ $trendingitem->judul }}
+									</a>
+								</h4>
+						@endforeach
+						</div>
 					</div>
 				</div>
-				@endforeach
-			</div>
-	</div> 	
-
-	<div class="widget-3 last widget tz_ad600_widget">
-		  	<div class="ot-widget-banner">
-			<a href="http://www.orange-themes.net" target="_blank">
-				<img src="http://solidus.orange-themes.net/wp-content/themes/solidus-theme/images/no-banner-160x600.jpg" alt="Banner"/>
-			</a>
-			</div>
+		</div> 
+<!-- Latest News -->			
+		<div class="widget-1 first widget widget_ot_cat_posts">	
+			<div class="title-block"><h2>Latests News</h2></div>			
+				<div class="article-block without-images">
+					@foreach($berita as $beritaitem)
+					<div class="item no-image">
+						<div class="item-content">
+								<span class="article-meta left meta-date">
+									<i class="fa fa-calendar"></i>{{ date('d M Y', strtotime($beritaitem->created_at)) }}
+								</span>
+							<div class="clear-float"></div>
+								<h4>
+									<a href="{{ route('contentortax.show', ['id'=> $beritaitem->id, 'param'=> $beritaitem->kategori] ) }}">
+									{!! \Illuminate\Support\Str::words($beritaitem->judul, 7,'...')  !!}
+									</a>
+								</h4>
+								<p>{!! \Illuminate\Support\Str::words($beritaitem->isi, 15,'...')  !!}</p>
+						</div>
+					</div>
+					@endforeach
+				</div>
+		</div> 	
+<!-- Iklan -->
+		<div class="widget-3 last widget tz_ad600_widget">
+				<div class="ot-widget-banner">
+				<a href="http://www.orange-themes.net" target="_blank">
+					<img src="http://solidus.orange-themes.net/wp-content/themes/solidus-theme/images/no-banner-160x600.jpg" alt="Banner"/>
+				</a>
+				</div>
 		</div>	
-		
-	<div class="widget-2 widget widget_ot_cat_posts">	
-		<div class="title-block"><h2>Fashion</h2></div>			
-		<div class="article-block">
-								<div class="item">
-									<div class="item-header">
-										<a href="#" class="image-hover">
-											<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-151x104_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-302x208_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>									
-										</a>
+<!-- Kontribusi member -->
+		<div class="widget-2 widget widget_ot_cat_posts">	
+			<div class="title-block"><h2>Kontribusi Member</h2></div>			
+			<div class="article-block">
+									<div class="item">
+										<div class="item-header">
+											<a href="#" class="image-hover">
+												<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-151x104_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-302x208_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>									
+											</a>
+										</div>
+										<div class="item-content">
+											<h4><a href="#">User Manual e-Bupot PPh pasal 23/26</a></h4>
+											<br />
+											<p>	Berisi materi dan tata cara/panduan pengisian electronik Bukti Potong PPh 23/26 (e-Bupot PPh 23/26).</p>
+										</div>
 									</div>
-									<div class="item-content">
-										<a href="#" style="background: #6ca96e" class="item-content-category">Automotive</a>
-										<h4><a href="#">My 2015 Group Tours: Two Trips to Europe!</a></h4>
+									<div class="item">
+										<div class="item-header">
+											<a href="#" class="image-hover">
+												<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-151x104_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-302x208_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>									
+											</a>
+										</div>
+										<div class="item-content">
+											<h4><a href="#">User Manual Aplikasi e-SKD WPLN</a></h4>
+											<br />
+											<p>Berisi materi dan tata cara/panduan pengisian electronic Surat Keterangan Domisili (e-SKD).</p>
+										</div>
 									</div>
-								</div>
-								<div class="item">
-									<div class="item-header">
-										<a href="#" class="image-hover">
-											<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-151x104_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-302x208_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>									
-										</a>
+									<div class="item">
+										<div class="item-header">
+											<a href="#" class="image-hover">
+												<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-151x104_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-302x208_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>									
+											</a>
+										</div>
+										<div class="item-content">
+											<h4><a href="#">Materi dan Dokumen Terkait CbCR</a></h4>
+											<br />
+											<p>Berisi materi dan beberapa dokumen sehubungan dengan Laporan per Negara atau Country by Country Report (CbCR) yang bersumber dari http://www.pajak.go.id/cbcr</p>
+										</div>
 									</div>
-									<div class="item-content">
-										<a href="#" style="background: #6ca96e" class="item-content-category">Automotive</a>
-										<h4><a href="#">My 2015 Group Tours: Two Trips to Europe!</a></h4>
-									</div>
-								</div>
-								<div class="item">
-									<div class="item-header">
-										<a href="#" class="image-hover">
-											<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-151x104_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-302x208_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>									
-										</a>
-									</div>
-									<div class="item-content">
-										<a href="#" style="background: #6ca96e" class="item-content-category">Automotive</a>
-										<h4><a href="#">My 2015 Group Tours: Two Trips to Europe!</a></h4>
-									</div>
-								</div>
 
+			</div>
 		</div>
-	</div>
-
+<!-- Iklan -->
 	  	<div class="widget-3 last widget tz_ad600_widget">
 		  	<div class="ot-widget-banner">
 			<a href="http://www.orange-themes.net" target="_blank">
@@ -521,217 +543,186 @@
 			</a>
 			</div>
 		</div>	
-	</aside>
+</aside>
+<!-- End Sidebar kecil -->
 
-
-	<aside  id="sidebar" data-animation="fadeInUpSmall" class="sidebar column3 ot-scrollnimate">
-
-		<div class="widget-1 first widget tz_ad300_widget">
-			<div class="w-cool-b">
+<aside  id="sidebar" data-animation="fadeInUpSmall" class="sidebar column3 ot-scrollnimate">
+<!-- Iklan -->
+	<div class="widget-1 first widget tz_ad300_widget">
+		<div class="w-cool-b">
 				<a href="http://www.orange-themes.net" target="_blank">
 				<img src="http://solidus.orange-themes.net/wp-content/themes/solidus-theme/images/no-banner-300x250.jpg" alt="Banner"/>
 				</a>
-			</div>
-		</div>	
-			
+		</div>
+	</div>	
+<!-- Training Ortax -->			
 	<div class="widget-2 widget widget_ot_timeline">	
-		<div class="title-block"><h2>Latests News</h2></div>			
-
-	<div class="ot-widget-timeline">
-									<div class="item">
-										<div class="item-date">
-											<span class="item-date-day">21</span>
-											<div>
-												<span class="item-date-month">Apr</span>
-												<span class="item-date-time">14:05</span>
-											</div>
-										</div>
-
-																					<div class="item-avatar">
-												<a href="http://solidus.orange-themes.net/travel-tips-for-morrocco-part-one/">
-													<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-80x80_c.jpg 1900w" alt="A surfer girl is &#8220;Making Waves&#8221; in Morocco"/>												</a>
-											</div>
-										
-										<div class="item-content">
-											<div>
-						                        						                       		<a href="http://solidus.orange-themes.net/category/tourism/" class="item-category" style="color: #bf6bda;">Tourism</a>
-						               <i class="fa fa-comment"></i>
-							                        	0							                        </a>
-							                    											</div>
-											<strong><a href="http://solidus.orange-themes.net/travel-tips-for-morrocco-part-one/">A surfer girl is &#8220;Making Waves&#8221; in Morocco</a></strong>
-										</div>
-									</div>
-
-																	<div class="item">
-										<div class="item-date">
-											<span class="item-date-day">13</span>
-											<div>
-												<span class="item-date-month">Apr</span>
-												<span class="item-date-time">12:27</span>
-											</div>
-										</div>
-
-																					<div class="item-avatar">
-												<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-16/">
-													<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1422568374078-27d3842ba676-80x80_c.jpg 1900w" alt="My 2015 Group Tours: Two Trips to Europe!"/>												</a>
-											</div>
-										
-										<div class="item-content">
-											<div>
-						                        						                       		<a href="http://solidus.orange-themes.net/category/automotive/" class="item-category" style="color: #6ca96e;">Automotive</a>
-						                        							                    							                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-16/#comments" class="item-comments">
-							                        	<i class="fa fa-comment"></i>
-							                        	1							                        </a>
-							                    											</div>
-											<strong><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-16/">My 2015 Group Tours: Two Trips to Europe!</a></strong>
-										</div>
-									</div>
-
-																	<div class="item">
-										<div class="item-date">
-											<span class="item-date-day">13</span>
-											<div>
-												<span class="item-date-month">Apr</span>
-												<span class="item-date-time">12:27</span>
-											</div>
-										</div>
-
-																					<div class="item-avatar">
-												<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-15/">
-													<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1428263197823-ce6a8620d1e1-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1428263197823-ce6a8620d1e1-80x80_c.jpg 1900w" alt="Amal Clooney Steps Out in the Statement Flare"/>												</a>
-											</div>
-										
-										<div class="item-content">
-											<div>
-						                        						                       		<a href="http://solidus.orange-themes.net/category/automotive/" class="item-category" style="color: #6ca96e;">Automotive</a>
-						                        							                    							                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-15/#comments" class="item-comments">
-							                        	<i class="fa fa-comment"></i>
-							                        	0							                        </a>
-							                    											</div>
-											<strong><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-15/">Amal Clooney Steps Out in the Statement Flare</a></strong>
-										</div>
-									</div>
-
-																	<div class="item">
-										<div class="item-date">
-											<span class="item-date-day">13</span>
-											<div>
-												<span class="item-date-month">Apr</span>
-												<span class="item-date-time">12:26</span>
-											</div>
-										</div>
-
-																					<div class="item-avatar">
-												<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-14/">
-													<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/elegant-woman-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/elegant-woman-80x80_c.jpg 1900w" alt="Marilyn Minter on Her First Major Retrospective"/>												</a>
-											</div>
-										
-										<div class="item-content">
-											<div>
-						                        						                       		<a href="http://solidus.orange-themes.net/category/creative/" class="item-category" style="color: #eb7f00;">Creative</a>
-						                        							                    							                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-14/#comments" class="item-comments">
-							                        	<i class="fa fa-comment"></i>
-							                        	0							                        </a>
-							                    											</div>
-											<strong><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-14/">Marilyn Minter on Her First Major Retrospective</a></strong>
-										</div>
-									</div>
-
-																	<div class="item">
-										<div class="item-date">
-											<span class="item-date-day">13</span>
-											<div>
-												<span class="item-date-month">Apr</span>
-												<span class="item-date-time">12:25</span>
-											</div>
-										</div>
-
-																					<div class="item-avatar">
-												<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-13/">
-													<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417870839255-a23faa90c6b0-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417870839255-a23faa90c6b0-80x80_c.jpg 1900w" alt="Has Technology Ruined the Travel Experience?"/>												</a>
-											</div>
-										
-										<div class="item-content">
-											<div>
-						                        						                       		<a href="http://solidus.orange-themes.net/category/tourism/" class="item-category" style="color: #bf6bda;">Tourism</a>
-						                        							                    							                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-13/#comments" class="item-comments">
-							                        	<i class="fa fa-comment"></i>
-							                        	0							                        </a>
-							                    											</div>
-											<strong><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-13/">Has Technology Ruined the Travel Experience?</a></strong>
-										</div>
-									</div>
-
+		<div class="title-block"><h2>Upcoming Training</h2></div>	
+			<div class="ot-widget-timeline">
+					<div class="item">
+						<div class="item-date">
+							<span class="item-date-day">21</span>
+							<div>
+								<span class="item-date-month">Apr</span>
+								<span class="item-date-time">14:05</span>
 							</div>
-
+						</div>
+						<div class="item-avatar">
+							<a href="#">
+							<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-80x80_c.jpg 1900w" alt="A surfer girl is &#8220;Making Waves&#8221; in Morocco"/>												</a>
+						</div>
+						<div class="item-content">
+								<strong>
+									<a href="#" style="color:#fff">
+										A surfer girl is &#8220;Making Waves&#8221; in Morocco
+									</a>
+								</strong>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-date">
+							<span class="item-date-day">21</span>
+							<div>
+								<span class="item-date-month">Apr</span>
+								<span class="item-date-time">14:05</span>
+							</div>
+						</div>
+						<div class="item-avatar">
+							<a href="#">
+							<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-80x80_c.jpg 1900w" alt="A surfer girl is &#8220;Making Waves&#8221; in Morocco"/>												</a>
+						</div>
+						<div class="item-content">
+								<strong>
+									<a href="#" style="color:#fff">
+										A surfer girl is &#8220;Making Waves&#8221; in Morocco
+									</a>
+								</strong>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-date">
+							<span class="item-date-day">21</span>
+							<div>
+								<span class="item-date-month">Apr</span>
+								<span class="item-date-time">14:05</span>
+							</div>
+						</div>
+						<div class="item-avatar">
+							<a href="#">
+							<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-80x80_c.jpg 1900w" alt="A surfer girl is &#8220;Making Waves&#8221; in Morocco"/>												</a>
+						</div>
+						<div class="item-content">
+								<strong>
+									<a href="#" style="color:#fff">
+										A surfer girl is &#8220;Making Waves&#8221; in Morocco
+									</a>
+								</strong>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-date">
+							<span class="item-date-day">21</span>
+							<div>
+								<span class="item-date-month">Apr</span>
+								<span class="item-date-time">14:05</span>
+							</div>
+						</div>
+						<div class="item-avatar">
+							<a href="#">
+							<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-80x80_c.jpg 1900w" alt="A surfer girl is &#8220;Making Waves&#8221; in Morocco"/>												</a>
+						</div>
+						<div class="item-content">
+								<strong>
+									<a href="#" style="color:#fff">
+										A surfer girl is &#8220;Making Waves&#8221; in Morocco
+									</a>
+								</strong>
+						</div>
+					</div>
+					<div class="item">
+						<div class="item-date">
+							<span class="item-date-day">21</span>
+							<div>
+								<span class="item-date-month">Apr</span>
+								<span class="item-date-time">14:05</span>
+							</div>
+						</div>
+						<div class="item-avatar">
+							<a href="#">
+							<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-40x40_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/photo-1417144762996-a41c0f6be9c7-80x80_c.jpg 1900w" alt="A surfer girl is &#8220;Making Waves&#8221; in Morocco"/>												</a>
+						</div>
+						<div class="item-content">
+								<strong>
+									<a href="#" style="color:#fff">
+										A surfer girl is &#8220;Making Waves&#8221; in Morocco
+									</a>
+								</strong>
+						</div>
+					</div>
+			</div>
+			<br />
 	</div>
-      		
-	<div class="widget-3 widget widget_ot_reviews">	<div class="title-block"><h2>Reviews</h2></div>		<div class="article-block">
-												<div class="item">
-													<div class="item-header">
-								<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/" class="image-hover">
-									<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-100x69_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/pelican-200x138_c.jpg 1900w" alt="How to Sail the British Virgin Islands for Free"/>								</a>
-							</div>
-												<div class="item-content">
-							<span class="article-meta">
-																	<a href="http://solidus.orange-themes.net/2015/04/" class="meta-date"><i class="fa fa-clock-o"></i>April 13, 2015</a>
-																
-			                    			                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/#comments" class="meta-comments">
-			                        	<i class="fa fa-comment"></i>
-			                        	0			                        </a>
-			                    								
-							</span>
-							<h4><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-9/">How to Sail the British Virgin Islands for Free</a></h4>
-							<span class="item-stars" style="color: #f05c5c;">
-								<span class="stars-inner" style="width: 92.6%;"></span>
-							</span>
-						</div>
+ 
+<!-- Kurs Pajak -->	     		
+	<div class="widget-3 widget widget_ot_reviews">	
+		<div class="title-block"><h2 style="background-color:#ffa500">Kurs Pajak</h2></div>		
+		<div class="comments-kurs-block">
+				<div class="item">
+					<div class="item-header">
+						<a href="#" class="image-hover">
+							<img src="http://localhost:8000/storage/kurskode/QFU0GgUSrdm9VaW8WfVeuay9kuA8VXCaghSpCZ6c.png" alt="Orange Themes" />
+						</a>
 					</div>
-																						<div class="item">
-													<div class="item-header">
-								<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/" class="image-hover">
-									<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/m6rT4MYFQ7CT8j9m2AEC_JakeGivens-Sunset-in-the-Park-100x69_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/m6rT4MYFQ7CT8j9m2AEC_JakeGivens-Sunset-in-the-Park-200x138_c.jpg 1900w" alt="Why Road Trips are a Good Idea for Family Travel"/>								</a>
-							</div>
-												<div class="item-content">
-							<span class="article-meta">
-																	<a href="http://solidus.orange-themes.net/2015/04/" class="meta-date"><i class="fa fa-clock-o"></i>April 13, 2015</a>
-																
-			                    			                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/#comments" class="meta-comments">
-			                        	<i class="fa fa-comment"></i>
-			                        	0			                        </a>
-			                    								
-							</span>
-							<h4><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied-7/">Why Road Trips are a Good Idea for Family Travel</a></h4>
-							<span class="item-stars" style="color: #f05c5c;">
-								<span class="stars-inner" style="width: 76.6%;"></span>
-							</span>
-						</div>
+					<div class="item-content" style="background: #d6d7d8;">
+						<p>[EUR] EURO <span class="pull-right">Rp. 10000</span></p>
 					</div>
-																						<div class="item">
-													<div class="item-header">
-								<a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/" class="image-hover">
-									<img src="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-100x69_c.jpg" srcset="http://solidus.orange-themes.net/wp-content/uploads/2015/04/3b6f33f2-200x138_c.jpg 1900w" alt="Can Keurig stop coffee pirates with cups that can&#8217;t be copied?"/>								</a>
-							</div>
-												<div class="item-content">
-							<span class="article-meta">
-																	<a href="http://solidus.orange-themes.net/2015/04/" class="meta-date"><i class="fa fa-clock-o"></i>April 13, 2015</a>
-																
-			                    			                        <a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/#comments" class="meta-comments">
-			                        	<i class="fa fa-comment"></i>
-			                        	0			                        </a>
-			                    								
-							</span>
-							<h4><a href="http://solidus.orange-themes.net/can-keurig-stop-coffee-pirates-with-cups-that-cant-be-copied/">Can Keurig stop coffee pirates with cups that can&#8217;t be copied?</a></h4>
-							<span class="item-stars" style="color: #f05c5c;">
-								<span class="stars-inner" style="width: 82.6%;"></span>
-							</span>
-						</div>
+				</div>
+				<div class="item">
+					<div class="item-header">
+						<a href="#" class="image-hover">
+							<img src="http://localhost:8000/storage/kurskode/QFU0GgUSrdm9VaW8WfVeuay9kuA8VXCaghSpCZ6c.png" alt="Orange Themes" />
+						</a>
 					</div>
-																</div>
+					<div class="item-content" style="background: #fff;">
+						<p>[EUR] EURO <span class="pull-right">Rp. 10000</span></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-header">
+						<a href="#" class="image-hover">
+							<img src="http://localhost:8000/storage/kurskode/QFU0GgUSrdm9VaW8WfVeuay9kuA8VXCaghSpCZ6c.png" alt="Orange Themes" />
+						</a>
+					</div>
+					<div class="item-content" style="background: #d6d7d8;">
+						<p>[EUR] EURO <span class="pull-right">Rp. 10000</span></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-header">
+						<a href="#" class="image-hover">
+							<img src="http://localhost:8000/storage/kurskode/QFU0GgUSrdm9VaW8WfVeuay9kuA8VXCaghSpCZ6c.png" alt="Orange Themes" />
+						</a>
+					</div>
+					<div class="item-content" style="background: #fff;">
+						<p>[EUR] EURO <span class="pull-right">Rp. 10000</span></p>
+					</div>
+				</div>
+				<div class="item">
+					<div class="item-header">
+						<a href="#" class="image-hover">
+							<img src="http://localhost:8000/storage/kurskode/QFU0GgUSrdm9VaW8WfVeuay9kuA8VXCaghSpCZ6c.png" alt="Orange Themes" />
+						</a>
+					</div>
+					<div class="item-content" style="background: #d6d7d8;">
+						<p>[EUR] EURO <span class="pull-right">Rp. 10000</span></p>
+					</div>
+				</div>		
+		</div>			
 	</div>		
 	
       		
-	<div class="widget-4 widget widget_ot_latest_comments">	<div class="title-block"><h2>Recent Comments</h2></div>		<div class="comments-w-block">
+	<div class="widget-4 widget widget_ot_latest_comments">	<div class="title-block"><h2>Recent Comments</h2></div>		
+	<div class="comments-w-block">
 				
 				<div class="item">
 					<div class="item-header">
@@ -922,8 +913,12 @@
 <a href="http://solidus.orange-themes.net/tag/creative/" class="tag-cloud-link tag-link-15 tag-link-position-2" style="font-size: 8pt;" aria-label="Creative (11 items)">Creative</a>
 <a href="http://solidus.orange-themes.net/tag/fashion/" class="tag-cloud-link tag-link-13 tag-link-position-3" style="font-size: 8pt;" aria-label="Fashion (11 items)">Fashion</a>
 <a href="http://solidus.orange-themes.net/tag/gadgets/" class="tag-cloud-link tag-link-16 tag-link-position-4" style="font-size: 8pt;" aria-label="Gadgets (11 items)">Gadgets</a>
-<a href="http://solidus.orange-themes.net/tag/tourism/" class="tag-cloud-link tag-link-14 tag-link-position-5" style="font-size: 22pt;" aria-label="Tourism (12 items)">Tourism</a></div>
-</div>		<div class="widget-8 last widget widget_ot_aweber">			<div class="title-block"><h2>Subscribe Newsletter</h2></div>			<div class="ot-subscribe-widget">
+<a href="http://solidus.orange-themes.net/tag/tourism/" class="tag-cloud-link tag-link-14 tag-link-position-5" style="font-size: 22pt;" aria-label="Tourism (12 items)">Tourism</a>
+</div>
+</div>		
+
+<div class="widget-8 last widget widget_ot_aweber">			
+<div class="title-block"><h2>Subscribe Newsletter</h2></div>			<div class="ot-subscribe-widget">
 									<p>Deserunt posuere pellentesque porta ridiculus fugiat. Tempus ad per consectetur maecenas penatibus.</p>
 								<div class="ot-subscribe-widget-inner">
 					<div class="alert-box aweber-fail" style="display:none;">
