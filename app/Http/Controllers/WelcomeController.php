@@ -39,7 +39,7 @@ class WelcomeController extends Controller
                 ->where('status','=','1')
                 ->orderby('id','desc')
                 ->first();
-
+        
         $highlightcat = DB::table('highlights')
                 ->distinct()
                 ->where('status','=','1')
@@ -55,13 +55,13 @@ class WelcomeController extends Controller
                 ->limit(5)
                 ->get();
 
-        $kursmk = DB::table('kurs_mks as a')
+        /*$kursmk = DB::table('kurs_mks as a')
                 ->leftJoin('aturans as b', 'a.aturan_id', '=', 'b.id')
                 ->select('EUR','USD','GBP','AUD','SGD','aturan_id','nomor','start_at','end_at')
                 ->where('a.status','=','1')
                 ->orderby('start_at','desc')
                 ->limit(1)
-                ->get();
+                ->get();*/
 
         //dd($kursmk);
 
